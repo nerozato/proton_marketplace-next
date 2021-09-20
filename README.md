@@ -118,7 +118,7 @@ The marketplace page consists of templates of a specific `collection_name`.
 ### Custom flags
 
 - The `Template` object is extended with the following custom property: `lowestPrice`.
-  - `lowestPrice` (string) is determined by checking the Sales API for assets listed for sale and finding the lowest price of the assets of that particular template.
+- `lowestPrice` (string) is determined by checking the Sales API for assets listed for sale and finding the lowest price of the assets of that particular template.
 
 ## My NFTs
 
@@ -127,5 +127,5 @@ The `My NFTs` page consists of the current user's assets. Each user is only allo
 ### Custom flags
 
 - The `Asset` object is extended with the following custom properties: `isForSale` and `salePrice`.
-  - `isForSale` (boolean) is determined by checking the Sales API for currently listed sales using the `asset_id` and `seller` (current user's `chainAccount`)
-  - `salePrice` (string) is determined by checking the Sales API and combining an asset's `listing_price` and `listing_symbol`
+- `isForSale` (boolean) is determined by checking the Sales API for currently listed sales using the `asset_id` and `seller` (current user's `chainAccount`)
+- `salePrice` (string) is determined by checking the Sales API and combining an asset's `listing_price` and `listing_symbol`
