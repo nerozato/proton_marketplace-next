@@ -129,3 +129,4 @@ The `My NFTs` page consists of the current user's assets. Each user is only allo
 - The `Asset` object is extended with the following custom properties: `isForSale` and `salePrice`.
 - `isForSale` (boolean) is determined by checking the Sales API for currently listed sales using the `asset_id` and `seller` (current user's `chainAccount`)
 - `salePrice` (string) is determined by checking the Sales API and combining an asset's `listing_price` and `listing_symbol`
+
